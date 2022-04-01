@@ -1,6 +1,6 @@
-# autopublish-template
+# single-spa-angular
 
-[![npm version](https://img.shields.io/npm/v/@esm-bundle/autopublish-template.svg?style=flat)](https://www.npmjs.com/package/@esm-bundle/autopublish-template) [![build status](https://travis-ci.com/esm-bundle/autopublish-template.svg?branch=master)](https://travis-ci.com/esm-bundle/autopublish-template) [![](https://data.jsdelivr.com/v1/package/npm/@esm-bundle/autopublish-template/badge)](https://www.jsdelivr.com/package/npm/@esm-bundle/autopublish-template)
+[![npm version](https://img.shields.io/npm/v/@esm-bundle/single-spa-angular.svg?style=flat)](https://www.npmjs.com/package/@esm-bundle/single-spa-angular) [![build status](https://travis-ci.com/esm-bundle/single-spa-angular.svg?branch=master)](https://travis-ci.com/esm-bundle/single-spa-angular) [![](https://data.jsdelivr.com/v1/package/npm/@esm-bundle/single-spa-angular/badge)](https://www.jsdelivr.com/package/npm/@esm-bundle/single-spa-angular)
 
 ["What is this" blog post](https://medium.com/@joeldenning/an-esm-bundle-for-any-npm-package-5f850db0e04d)
 
@@ -8,28 +8,114 @@
 
 A repo that tests automatic detection of upstream publishes and the publishing of `@esm-bundle` versions of them.
 
-Upstream repo at https://github.com/joeldenning/autopublish-template.
+## Latest Version
 
-## JS Delivr
+### single-spa-angular/internals
 
-https://cdn.jsdelivr.net/npm/@esm-bundle/autopublish-template/esm/index.js
+#### ES2015
 
-https://cdn.jsdelivr.net/npm/@esm-bundle/autopublish-template/system/index.js
+https://cdn.jsdelivr.net/npm/@esm-bundle/single-spa-angular/system/es2015/ivy/angular-single-spa-angular-internals.js
 
-## Unpkg
+https://cdn.jsdelivr.net/npm/@esm-bundle/single-spa-angular/system/es2015/ivy/angular-single-spa-angular-internals.min.js
 
-https://unpkg.com/@esm-bundle/autopublish-template/esm/index.js
+https://unpkg.com/@esm-bundle/single-spa-angular/system/es2015/ivy/angular-single-spa-angular-internals.js
 
-https://unpkg.com/@esm-bundle/autopublish-template/system/index.js
+https://unpkg.com/@esm-bundle/single-spa-angular/system/es2015/ivy/angular-single-spa-angular-internals.min.js
+
+#### ES2020
+
+https://cdn.jsdelivr.net/npm/@esm-bundle/single-spa-angular/system/es2020/ivy/angular-single-spa-angular-internals.js
+
+https://cdn.jsdelivr.net/npm/@esm-bundle/single-spa-angular/system/es2020/ivy/angular-single-spa-angular-internals.min.js
+
+https://unpkg.com/@esm-bundle/single-spa-angular/system/es2020/ivy/angular-single-spa-angular-internals.js
+
+https://unpkg.com/@esm-bundle/single-spa-angular/system/es2020/ivy/angular-single-spa-angular-internals.min.js
+
+### single-spa-angular
+
+#### ES2015
+
+https://cdn.jsdelivr.net/npm/@esm-bundle/single-spa-angular/system/es2015/ivy/angular-single-spa-angular.js
+
+https://cdn.jsdelivr.net/npm/@esm-bundle/single-spa-angular/system/es2015/ivy/angular-single-spa-angular.min.js
+
+https://unpkg.com/@esm-bundle/single-spa-angular/system/es2015/ivy/angular-single-spa-angular.js
+
+https://unpkg.com/@esm-bundle/single-spa-angular/system/es2015/ivy/angular-single-spa-angular.min.js
+
+#### ES2020
+
+https://cdn.jsdelivr.net/npm/@esm-bundle/single-spa-angular/system/es2020/ivy/angular-single-spa-angular.js
+
+https://cdn.jsdelivr.net/npm/@esm-bundle/single-spa-angular/system/es2020/ivy/angular-single-spa-angular.min.js
+
+https://unpkg.com/@esm-bundle/single-spa-angular/system/es2020/ivy/angular-single-spa-angular.js
+
+https://unpkg.com/@esm-bundle/single-spa-angular/system/es2020/ivy/angular-single-spa-angular.min.js
+
+### single-spa-angular/parcel
+
+#### ES2015
+
+https://cdn.jsdelivr.net/npm/@esm-bundle/single-spa-angular/system/es2015/ivy/angular-single-spa-angular-parcel.js
+
+https://cdn.jsdelivr.net/npm/@esm-bundle/single-spa-angular/system/es2015/ivy/angular-single-spa-angular-parcel.min.js
+
+https://unpkg.com/@esm-bundle/single-spa-angular/system/es2015/ivy/angular-single-spa-angular-parcel.js
+
+https://unpkg.com/@esm-bundle/single-spa-angular/system/es2015/ivy/angular-single-spa-angular-parcel.min.js
+
+#### ES2020
+
+https://cdn.jsdelivr.net/npm/@esm-bundle/single-spa-angular/system/es2020/ivy/angular-single-spa-angular-parcel.js
+
+https://cdn.jsdelivr.net/npm/@esm-bundle/single-spa-angular/system/es2020/ivy/angular-single-spa-angular-parcel.min.js
+
+https://unpkg.com/@esm-bundle/single-spa-angular/system/es2020/ivy/angular-single-spa-angular-parcel.js
+
+https://unpkg.com/@esm-bundle/single-spa-angular/system/es2020/ivy/angular-single-spa-angular-parcel.min.js
+
+### single-spa-angular/elements
+
+#### ES2015
+
+https://cdn.jsdelivr.net/npm/@esm-bundle/single-spa-angular/system/es2015/ivy/angular-single-spa-angular-elements.js
+
+https://cdn.jsdelivr.net/npm/@esm-bundle/single-spa-angular/system/es2015/ivy/angular-single-spa-angular-elements.min.js
+
+https://unpkg.com/@esm-bundle/single-spa-angular/system/es2015/ivy/angular-single-spa-angular-elements.js
+
+https://unpkg.com/@esm-bundle/single-spa-angular/system/es2015/ivy/angular-single-spa-angular-elements.min.js
+
+#### ES2020
+
+https://cdn.jsdelivr.net/npm/@esm-bundle/single-spa-angular/system/es2020/ivy/angular-single-spa-angular-elements.js
+
+https://cdn.jsdelivr.net/npm/@esm-bundle/single-spa-angular/system/es2020/ivy/angular-single-spa-angular-elements.min.js
+
+https://unpkg.com/@esm-bundle/single-spa-angular/system/es2020/ivy/angular-single-spa-angular-elements.js
+
+https://unpkg.com/@esm-bundle/single-spa-angular/system/es2020/ivy/angular-single-spa-angular-elements.min.js
+
+## Specific Version
+
+https://cdn.jsdelivr.net/npm/@esm-bundle/single-spa-angular@6.2.0/system/es2015/ivy/angular-single-spa-angular-internals.js
+
+https://cdn.jsdelivr.net/npm/@esm-bundle/single-spa-angular@6.2.0/system/es2015/ivy/angular-single-spa-angular-internals.min.js
+
+https://unpkg.com/@esm-bundle/single-spa-angular@6.2.0/system/es2015/ivy/angular-single-spa-angular-internals.js
+
+https://unpkg.com/@esm-bundle/single-spa-angular@6.2.0/system/es2015/ivy/angular-single-spa-angular-internals.min.js
 
 ## Npm
 
 ```sh
-npm install --save autopublish-template@npm:@esm-bundle/autopublish-template
+npm install --save single-spa-angular@npm:@esm-bundle/single-spa-angular
 ```
 
 ## Yarn
 
 ```sh
-yarn add autopublish-template@npm:@esm-bundle/autopublish-template
+yarn add single-spa-angular@npm:@esm-bundle/single-spa-angular
 ```
