@@ -8,19 +8,105 @@
 
 A repo that tests automatic detection of upstream publishes and the publishing of `@esm-bundle` versions of them.
 
-Upstream repo at https://github.com/joeldenning/single-spa-angular.
+## Latest Version
 
-## JS Delivr
+### single-spa-angular/internals
 
-https://cdn.jsdelivr.net/npm/@esm-bundle/single-spa-angular/esm/index.js
+#### ES2015
 
-https://cdn.jsdelivr.net/npm/@esm-bundle/single-spa-angular/system/index.js
+https://cdn.jsdelivr.net/npm/@esm-bundle/single-spa-angular/system/es2015/ivy/angular-single-spa-angular-internals.js
 
-## Unpkg
+https://cdn.jsdelivr.net/npm/@esm-bundle/single-spa-angular/system/es2015/ivy/angular-single-spa-angular-internals.min.js
 
-https://unpkg.com/@esm-bundle/single-spa-angular/esm/index.js
+https://unpkg.com/@esm-bundle/single-spa-angular/system/es2015/ivy/angular-single-spa-angular-internals.js
 
-https://unpkg.com/@esm-bundle/single-spa-angular/system/index.js
+https://unpkg.com/@esm-bundle/single-spa-angular/system/es2015/ivy/angular-single-spa-angular-internals.min.js
+
+#### ES2020
+
+https://cdn.jsdelivr.net/npm/@esm-bundle/single-spa-angular/system/es2020/ivy/angular-single-spa-angular-internals.js
+
+https://cdn.jsdelivr.net/npm/@esm-bundle/single-spa-angular/system/es2020/ivy/angular-single-spa-angular-internals.min.js
+
+https://unpkg.com/@esm-bundle/single-spa-angular/system/es2020/ivy/angular-single-spa-angular-internals.js
+
+https://unpkg.com/@esm-bundle/single-spa-angular/system/es2020/ivy/angular-single-spa-angular-internals.min.js
+
+### single-spa-angular
+
+#### ES2015
+
+https://cdn.jsdelivr.net/npm/@esm-bundle/single-spa-angular/system/es2015/ivy/angular-single-spa-angular.js
+
+https://cdn.jsdelivr.net/npm/@esm-bundle/single-spa-angular/system/es2015/ivy/angular-single-spa-angular.min.js
+
+https://unpkg.com/@esm-bundle/single-spa-angular/system/es2015/ivy/angular-single-spa-angular.js
+
+https://unpkg.com/@esm-bundle/single-spa-angular/system/es2015/ivy/angular-single-spa-angular.min.js
+
+#### ES2020
+
+https://cdn.jsdelivr.net/npm/@esm-bundle/single-spa-angular/system/es2020/ivy/angular-single-spa-angular.js
+
+https://cdn.jsdelivr.net/npm/@esm-bundle/single-spa-angular/system/es2020/ivy/angular-single-spa-angular.min.js
+
+https://unpkg.com/@esm-bundle/single-spa-angular/system/es2020/ivy/angular-single-spa-angular.js
+
+https://unpkg.com/@esm-bundle/single-spa-angular/system/es2020/ivy/angular-single-spa-angular.min.js
+
+### single-spa-angular/parcel
+
+#### ES2015
+
+https://cdn.jsdelivr.net/npm/@esm-bundle/single-spa-angular/system/es2015/ivy/angular-single-spa-angular-parcel.js
+
+https://cdn.jsdelivr.net/npm/@esm-bundle/single-spa-angular/system/es2015/ivy/angular-single-spa-angular-parcel.min.js
+
+https://unpkg.com/@esm-bundle/single-spa-angular/system/es2015/ivy/angular-single-spa-angular-parcel.js
+
+https://unpkg.com/@esm-bundle/single-spa-angular/system/es2015/ivy/angular-single-spa-angular-parcel.min.js
+
+#### ES2020
+
+https://cdn.jsdelivr.net/npm/@esm-bundle/single-spa-angular/system/es2020/ivy/angular-single-spa-angular-parcel.js
+
+https://cdn.jsdelivr.net/npm/@esm-bundle/single-spa-angular/system/es2020/ivy/angular-single-spa-angular-parcel.min.js
+
+https://unpkg.com/@esm-bundle/single-spa-angular/system/es2020/ivy/angular-single-spa-angular-parcel.js
+
+https://unpkg.com/@esm-bundle/single-spa-angular/system/es2020/ivy/angular-single-spa-angular-parcel.min.js
+
+### single-spa-angular/elements
+
+#### ES2015
+
+https://cdn.jsdelivr.net/npm/@esm-bundle/single-spa-angular/system/es2015/ivy/angular-single-spa-angular-elements.js
+
+https://cdn.jsdelivr.net/npm/@esm-bundle/single-spa-angular/system/es2015/ivy/angular-single-spa-angular-elements.min.js
+
+https://unpkg.com/@esm-bundle/single-spa-angular/system/es2015/ivy/angular-single-spa-angular-elements.js
+
+https://unpkg.com/@esm-bundle/single-spa-angular/system/es2015/ivy/angular-single-spa-angular-elements.min.js
+
+#### ES2020
+
+https://cdn.jsdelivr.net/npm/@esm-bundle/single-spa-angular/system/es2020/ivy/angular-single-spa-angular-elements.js
+
+https://cdn.jsdelivr.net/npm/@esm-bundle/single-spa-angular/system/es2020/ivy/angular-single-spa-angular-elements.min.js
+
+https://unpkg.com/@esm-bundle/single-spa-angular/system/es2020/ivy/angular-single-spa-angular-elements.js
+
+https://unpkg.com/@esm-bundle/single-spa-angular/system/es2020/ivy/angular-single-spa-angular-elements.min.js
+
+## Specific Version
+
+https://cdn.jsdelivr.net/npm/@esm-bundle/single-spa-angular@6.2.0/system/es2015/ivy/angular-single-spa-angular-internals.js
+
+https://cdn.jsdelivr.net/npm/@esm-bundle/single-spa-angular@6.2.0/system/es2015/ivy/angular-single-spa-angular-internals.min.js
+
+https://unpkg.com/@esm-bundle/single-spa-angular@6.2.0/system/es2015/ivy/angular-single-spa-angular-internals.js
+
+https://unpkg.com/@esm-bundle/single-spa-angular@6.2.0/system/es2015/ivy/angular-single-spa-angular-internals.min.js
 
 ## Npm
 
