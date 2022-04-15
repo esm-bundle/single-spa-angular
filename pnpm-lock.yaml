@@ -4,7 +4,7 @@ specifiers:
   '@angular/compiler': 13.3.3
   '@angular/compiler-cli': 13.3.3
   '@rollup/plugin-babel': 5.3.1
-  '@rollup/plugin-node-resolve': 13.2.0
+  '@rollup/plugin-node-resolve': 13.2.1
   concurrently: 7.1.0
   husky: 7.0.4
   karma: 6.3.18
@@ -26,7 +26,7 @@ devDependencies:
   '@angular/compiler': 13.3.3
   '@angular/compiler-cli': 13.3.3_38de2c22041dec8c84ce012de55b5390
   '@rollup/plugin-babel': 5.3.1_rollup@2.70.2
-  '@rollup/plugin-node-resolve': 13.2.0_rollup@2.70.2
+  '@rollup/plugin-node-resolve': 13.2.1_rollup@2.70.2
   concurrently: 7.1.0
   husky: 7.0.4
   karma: 6.3.18
@@ -446,8 +446,8 @@ packages:
       rollup: 2.70.2
     dev: true
 
-  /@rollup/plugin-node-resolve/13.2.0_rollup@2.70.2:
-    resolution: {integrity: sha512-GuUIUyIKq7EjQxB51XSn6zPHYo+cILQQBYOGYvFFNxws2OVOqCBShAoof2hFrV8bAZzZGDBDQ8m2iUt8SLOUkg==}
+  /@rollup/plugin-node-resolve/13.2.1_rollup@2.70.2:
+    resolution: {integrity: sha512-btX7kzGvp1JwShQI9V6IM841YKNPYjKCvUbNrQ2EcVYbULtUd/GH6wZ/qdqH13j9pOHBER+EZXNN2L8RSJhVRA==}
     engines: {node: '>= 10.0.0'}
     peerDependencies:
       rollup: ^2.42.0
