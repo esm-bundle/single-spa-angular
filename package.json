@@ -75,6 +75,6 @@
     "rollup-plugin-terser": "7.0.2",
     "rxjs": "7.5.5",
     "single-spa-angular": "6.3.1",
-    "typescript": "4.6.4"
+    "typescript": "4.7.2"
   }
 }
