@@ -56,8 +56,8 @@
   },
   "homepage": "https://github.com/esm-bundle/single-spa-angular#readme",
   "devDependencies": {
-    "@angular/compiler": "13.3.9",
-    "@angular/compiler-cli": "13.3.9",
+    "@angular/compiler": "13.3.10",
+    "@angular/compiler-cli": "13.3.10",
     "@rollup/plugin-babel": "5.3.1",
     "@rollup/plugin-node-resolve": "13.3.0",
     "concurrently": "7.2.1",
