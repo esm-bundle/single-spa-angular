@@ -19,7 +19,7 @@ specifiers:
   rollup: 2.75.7
   rollup-plugin-terser: 7.0.2
   rxjs: 7.5.5
-  single-spa-angular: 6.3.1
+  single-spa-angular: 7.0.0
   typescript: 4.7.4
 
 devDependencies:
@@ -41,7 +41,7 @@ devDependencies:
   rollup: 2.75.7
   rollup-plugin-terser: 7.0.2_rollup@2.75.7
   rxjs: 7.5.5
-  single-spa-angular: 6.3.1
+  single-spa-angular: 7.0.0
   typescript: 4.7.4
 
 packages:
@@ -3377,10 +3377,10 @@ packages:
     resolution: {integrity: sha512-wnD2ZE+l+SPC/uoS0vXeE9L1+0wuaMqKlfz9AMUo38JsyLSBWSFcHR1Rri62LZc12vLr1gb3jl7iwQhgwpAbGQ==}
     dev: true
 
-  /single-spa-angular/6.3.1:
-    resolution: {integrity: sha512-aKMWHhhU99KUnhEatf7y+DC1fOrmcvKu/Hgh/XWcNJlhhDCc/Ws+JM0V4g7rAGiUnAeXF/y1vzBLf+oUUtEpZg==}
+  /single-spa-angular/7.0.0:
+    resolution: {integrity: sha512-QY7pXpxokqLexuuwLEWuDedwQH7LiPEum+2wwm2c0/MYpYFjKyj65fWpDcuS3c2Sz2UVDGKFKNN5sVQl87VlaQ==}
     peerDependencies:
-      '@angular/core': '>=13'
+      '@angular/core': '>=14.0.0'
       json5: '*'
       single-spa: '>=4.0.0'
       style-loader: ^3.3.1
