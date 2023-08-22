@@ -5,7 +5,7 @@ specifiers:
   '@angular/compiler-cli': 15.2.9
   '@rollup/plugin-babel': 6.0.3
   '@rollup/plugin-node-resolve': 15.1.0
-  concurrently: 8.2.0
+  concurrently: 8.2.1
   husky: 8.0.3
   karma: 6.4.2
   karma-firefox-launcher: 2.1.2
@@ -27,7 +27,7 @@ devDependencies:
   '@angular/compiler-cli': 15.2.9_b4ec85fa8da08e3b2d8223b81b117ba3
   '@rollup/plugin-babel': 6.0.3_rollup@2.79.1
   '@rollup/plugin-node-resolve': 15.1.0_rollup@2.79.1
-  concurrently: 8.2.0
+  concurrently: 8.2.1
   husky: 8.0.3
   karma: 6.4.2
   karma-firefox-launcher: 2.1.2
@@ -320,7 +320,7 @@ packages:
     dependencies:
       string-width: 5.1.2
       string-width-cjs: /string-width/4.2.3
-      strip-ansi: 7.0.1
+      strip-ansi: 7.1.0
       strip-ansi-cjs: /strip-ansi/6.0.1
       wrap-ansi: 8.1.0
       wrap-ansi-cjs: /wrap-ansi/7.0.0
@@ -1084,8 +1084,8 @@ packages:
     resolution: {integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==}
     dev: true
 
-  /concurrently/8.2.0:
-    resolution: {integrity: sha512-nnLMxO2LU492mTUj9qX/az/lESonSZu81UznYDoXtz1IQf996ixVqPAgHXwvHiHCAef/7S8HIK+fTFK7Ifk8YA==}
+  /concurrently/8.2.1:
+    resolution: {integrity: sha512-nVraf3aXOpIcNud5pB9M82p1tynmZkrSGQ1p6X/VY8cJ+2LMVqAgXsJxYYefACSHbTYlm92O1xuhdGTjwoEvbQ==}
     engines: {node: ^14.13.0 || >=16.0.0}
     hasBin: true
     dependencies:
@@ -3681,13 +3681,6 @@ packages:
     engines: {node: '>=8'}
     dependencies:
       ansi-regex: 5.0.1
-    dev: true
-
-  /strip-ansi/7.0.1:
-    resolution: {integrity: sha512-cXNxvT8dFNRVfhVME3JAe98mkXDYN2O1l7jmcwMnOslDeESg1rF/OZMtK0nRAhiari1unG5cD4jG3rapUAkLbw==}
-    engines: {node: '>=12'}
-    dependencies:
-      ansi-regex: 6.0.1
     dev: true
 
   /strip-ansi/7.1.0:
