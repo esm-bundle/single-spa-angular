@@ -1,24 +1,20 @@
-import fs from "fs";
-import url from "url";
-import path from "path";
-import { babel } from "@rollup/plugin-babel";
-import { terser } from "rollup-plugin-terser";
-import { nodeResolve } from "@rollup/plugin-node-resolve";
-import { createEs2015LinkerPlugin } from "@angular/compiler-cli/linker/babel";
+import url from 'node:url';
+import path from 'node:path';
+import { createRequire } from 'node:module';
+import { babel } from '@rollup/plugin-babel';
+import terser from '@rollup/plugin-terser';
+import { nodeResolve } from '@rollup/plugin-node-resolve';
+import { createEs2015LinkerPlugin } from '@angular/compiler-cli/linker/babel';
 import {
   ConsoleLogger,
   NodeJSFileSystem,
   LogLevel,
-} from "@angular/compiler-cli";
+} from '@angular/compiler-cli';
 
-const __dirname = new url.URL(".", import.meta.url).pathname;
-const packageJson = JSON.parse(
-  fs
-    .readFileSync(
-      path.resolve(__dirname, "node_modules/single-spa-angular/package.json")
-    )
-    .toString()
-);
+const __dirname = new url.URL('.', import.meta.url).pathname;
+const require = createRequire(import.meta.url);
+
+const packageJson = require('single-spa-angular/package.json');
 
 /** File system used by the Angular linker plugin. */
 const fileSystem = new NodeJSFileSystem();
@@ -34,27 +30,27 @@ const linkerPlugin = createEs2015LinkerPlugin({
   linkerJitMode: false,
 });
 
-const packages = ["2015", "2020"]
+const packages = ['2022']
   .map((ecma) => [
     {
       ecma,
-      angularPackage: "single-spa-angular/internals",
-      filename: "single-spa-angular-internals",
+      angularPackage: 'single-spa-angular/internals',
+      filename: 'single-spa-angular-internals',
     },
     {
       ecma,
-      angularPackage: "single-spa-angular",
-      filename: "single-spa-angular",
+      angularPackage: 'single-spa-angular',
+      filename: 'single-spa-angular',
     },
     {
       ecma,
-      angularPackage: "single-spa-angular/elements",
-      filename: "single-spa-angular-elements",
+      angularPackage: 'single-spa-angular/elements',
+      filename: 'single-spa-angular-elements',
     },
     {
       ecma,
-      angularPackage: "single-spa-angular/parcel",
-      filename: "single-spa-angular-parcel",
+      angularPackage: 'single-spa-angular/parcel',
+      filename: 'single-spa-angular-parcel',
     },
   ])
   .flat();
@@ -64,35 +60,35 @@ export default packages
     createConfig({
       ecma,
       prod: false,
-      format: "system",
+      format: 'system',
       angularPackage,
       filename,
     }),
     createConfig({
       ecma,
       prod: true,
-      format: "system",
+      format: 'system',
       angularPackage,
       filename,
     }),
-    createConfig({ ecma, prod: false, format: "es", angularPackage, filename }),
-    createConfig({ ecma, prod: true, format: "es", angularPackage, filename }),
+    createConfig({ ecma, prod: false, format: 'es', angularPackage, filename }),
+    createConfig({ ecma, prod: true, format: 'es', angularPackage, filename }),
   ])
   .flat();
 
 function createConfig({ ecma, prod, format, angularPackage, filename }) {
-  const dir = (format === "es" ? "." : format) + `/es${ecma}/ivy`;
+  const dir = (format === 'es' ? '.' : format) + `/es${ecma}`;
 
   return {
     input: path.join(
       __dirname,
-      `node_modules/single-spa-angular/fesm${ecma}/${filename}.mjs`
+      `node_modules/single-spa-angular/fesm${ecma}/${filename}.mjs`,
     ),
     output: {
-      file: `${dir}/angular-${filename}.${prod ? "min." : ""}js`,
+      file: `${dir}/${filename}.${prod ? 'min.' : ''}js`,
       format,
       sourcemap: true,
-      banner: `/* esm-bundle - ${angularPackage}@${packageJson.version} - Ivy - ${format} format - es${ecma} - Use of this source code is governed by an MIT-style license that can be found in the LICENSE file at https://angular.io/license */`,
+      banner: `/* esm-bundle - ${angularPackage}@${packageJson.version} - ${format} format - es${ecma} - Use of this source code is governed by an MIT-style license that can be found in the LICENSE file at https://angular.io/license */`,
     },
     plugins: [
       nodeResolve({ browser: true }),
@@ -113,11 +109,11 @@ function createConfig({ ecma, prod, format, angularPackage, filename }) {
         }),
     ],
     external: [
-      "rxjs",
-      "rxjs/operators",
-      "@angular/core",
-      "@angular/common",
-      "single-spa-angular/internals",
+      'rxjs',
+      'rxjs/operators',
+      '@angular/core',
+      '@angular/common',
+      'single-spa-angular/internals',
     ],
   };
 }
