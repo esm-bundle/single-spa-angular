@@ -6,11 +6,11 @@ settings:
 
 devDependencies:
   '@angular/compiler':
-    specifier: 17.3.4
-    version: 17.3.4(@angular/core@17.3.4)
+    specifier: 17.3.5
+    version: 17.3.5(@angular/core@17.3.4)
   '@angular/compiler-cli':
-    specifier: 17.3.4
-    version: 17.3.4(@angular/compiler@17.3.4)(typescript@5.4.5)
+    specifier: 17.3.5
+    version: 17.3.5(@angular/compiler@17.3.5)(typescript@5.4.5)
   '@rollup/plugin-babel':
     specifier: 6.0.4
     version: 6.0.4(@babel/core@7.23.9)(rollup@4.16.0)
@@ -76,39 +76,39 @@ packages:
       '@jridgewell/trace-mapping': 0.3.25
     dev: true
 
-  /@angular/compiler-cli@17.3.4(@angular/compiler@17.3.4)(typescript@5.4.5):
-    resolution: {integrity: sha512-TVWjpZSI/GIXTYsmVgEKYjBckcW8Aj62DcxLNehRFR+c7UB95OY3ZFjU8U4jL0XvWPgTkkVWQVq+P6N4KCBsyw==}
+  /@angular/compiler-cli@17.3.5(@angular/compiler@17.3.5)(typescript@5.4.5):
+    resolution: {integrity: sha512-R53JNbbVDHWSGdL0e2vGQ5iJCrILOWZ1oemKjekOFB93fUBlEyi+nZmm4uTO7RU8PgjB0UpxI6ok5ZE3Amkt6A==}
     engines: {node: ^18.13.0 || >=20.9.0}
     hasBin: true
     peerDependencies:
-      '@angular/compiler': 17.3.4
+      '@angular/compiler': 17.3.5
       typescript: '>=5.2 <5.5'
     dependencies:
-      '@angular/compiler': 17.3.4(@angular/core@17.3.4)
+      '@angular/compiler': 17.3.5(@angular/core@17.3.4)
       '@babel/core': 7.23.9
       '@jridgewell/sourcemap-codec': 1.4.14
       chokidar: 3.5.3
       convert-source-map: 1.8.0
       reflect-metadata: 0.2.2
-      semver: 7.5.4
-      tslib: 2.3.1
+      semver: 7.6.0
+      tslib: 2.6.2
       typescript: 5.4.5
       yargs: 17.7.2
     transitivePeerDependencies:
       - supports-color
     dev: true
 
-  /@angular/compiler@17.3.4(@angular/core@17.3.4):
-    resolution: {integrity: sha512-YrDClIzgj6nQwiYHrfV6AkT1C5LCDgJh+LICus/2EY1w80j1Qf48Zh4asictReePdVE2Tarq6dnpDh4RW6LenQ==}
+  /@angular/compiler@17.3.5(@angular/core@17.3.4):
+    resolution: {integrity: sha512-lTubBFNlpH9zK46+yeVI7VJQNUELLAB8W1ucndYLCA9Rr9Jop+rYIXijmr42AGokOYr7yLc8HRiSQ5e+X2pUQg==}
     engines: {node: ^18.13.0 || >=20.9.0}
     peerDependencies:
-      '@angular/core': 17.3.4
+      '@angular/core': 17.3.5
     peerDependenciesMeta:
       '@angular/core':
         optional: true
     dependencies:
       '@angular/core': 17.3.4(rxjs@7.8.1)(zone.js@0.14.4)
-      tslib: 2.3.1
+      tslib: 2.6.2
     dev: true
 
   /@angular/core@17.3.4(rxjs@7.8.1)(zone.js@0.14.4):
@@ -3915,14 +3915,6 @@ packages:
   /semver@6.3.1:
     resolution: {integrity: sha512-BR7VvDCVHO+q2xBEWskxS6DJE1qRnb7DxzUrogb71CWoSficBxYsiAGd+Kl0mmq/MprG9yArRkyrQxTO6XjMzA==}
     hasBin: true
-    dev: true
-
-  /semver@7.5.4:
-    resolution: {integrity: sha512-1bCSESV6Pv+i21Hvpxp3Dx+pSD8lIPt8uVjRrxAUt/nbswYc+tK6Y2btiULjd4+fnq15PX+nqQDC7Oft7WkwcA==}
-    engines: {node: '>=10'}
-    hasBin: true
-    dependencies:
-      lru-cache: 6.0.0
     dev: true
 
   /semver@7.6.0:
