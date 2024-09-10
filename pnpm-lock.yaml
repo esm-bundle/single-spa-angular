@@ -60,8 +60,8 @@ devDependencies:
     specifier: 7.8.1
     version: 7.8.1
   single-spa-angular:
-    specifier: 9.1.2
-    version: 9.1.2(@angular/core@17.3.4)(json5@2.2.3)(single-spa@6.0.1)(style-loader@3.3.4)
+    specifier: 9.2.0
+    version: 9.2.0(@angular/core@17.3.4)(json5@2.2.3)(single-spa@6.0.1)(style-loader@3.3.4)
   typescript:
     specifier: 5.5.3
     version: 5.5.3
@@ -3490,8 +3490,8 @@ packages:
     engines: {node: '>=14'}
     dev: true
 
-  /single-spa-angular@9.1.2(@angular/core@17.3.4)(json5@2.2.3)(single-spa@6.0.1)(style-loader@3.3.4):
-    resolution: {integrity: sha512-HXhjKOr8WAtidjS+dfQzYbOj3C6d6t5Rcp5zhd9QWddCT6iDTNt0jQuSQF6OsudyFOji3JlkJkeIUr06zFgsAA==}
+  /single-spa-angular@9.2.0(@angular/core@17.3.4)(json5@2.2.3)(single-spa@6.0.1)(style-loader@3.3.4):
+    resolution: {integrity: sha512-BdolMgQHy1bFuXay6+D25NA5NMT9CX845Ncm+BXcY7aAOROYqia2I0rI7LMVCaaW9jWX1AMzlBMev59+xli53g==}
     peerDependencies:
       '@angular/core': '>=16.0.0'
       json5: '*'
